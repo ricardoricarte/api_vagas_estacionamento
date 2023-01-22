@@ -1,17 +1,31 @@
-# vaga-estacionamento
-Api de vagas de Estacionamento de Condominio
-
-# Dependendencias usadas
-
-- MySQL
-- JPA
-- Validation
-- Dev tools
-- Web
-- Java 11 
-- Spring - Version - 2.7.5
-
-# Parâmetros para testar - Postaman - Fort Cliente(Vscode)
+<div align="center">
+  <img src="http://www.sonhodaminhacasa.com.br/wp-content/uploads/2018/02/vaga-de-estacionamento-programa-minha-casa-minha-vida.png" width="60%">
+  <h1 style="border-bottom:none">API Vagas de Estacionamentoy</h1>
+  <p>Author: José Ricardo</p>
+  
+  
+  <a href="https://www.linkedin.com/in/ze-ricardo/">
+     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+  </a>
+    <a href="https://www.buymeacoffee.com/codeandmusic" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="28" width="174"></a>
+  
+  <br>
+  <br>
+  <p>Api para vagas de Estacionamento de Condominios.</p>
+  <br>
+  <div align="justify">  
+    
+  <h3>Tecnologias:</h3>
+  
+   + MySQL;
+   + JPA;
+   + Spring Boot;
+   + Java 11;
+   + Lombok
+   + Thunder Client extensão para requisições HTTP;
+   + Validações;
+   + Rodar Aplicação comando mvn spring-boot:run
+   
 
 {
   "numeroPlaca": "205B",
@@ -24,25 +38,10 @@ Api de vagas de Estacionamento de Condominio
   "bloco": "R"
 }
 
-# Banco de dados MYSQL
 
-* Configuracão
 
-# Altera a estrutura da tabela caso a entidade tenha mudanças.
-spring.jpa.hibernate.ddl-auto=update
+  </div>
+</div>
 
-# Acesso ao banco de dados
-spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:3306/vaga_estacionamento
 
-# Usuário do banco de dados
-spring.datasource.username=root
-
-# Senha do banco de dados
-spring.datasource.password=banco123
-spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
-
-Comando para rodar projet 
-
-mvn install -g
-mvn spring-boot:run
 
